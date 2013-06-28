@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Iniciar Secci&oacute;n</title>
+		<!--Elaborado por: Fabian Vega -->
+		<!--Fecha de creación: 28.03.2012 2:16 pm-->
+		<!--Ultima modificaciòn: 12.04.2012 6:00 pm-->
+		<link rel="stylesheet" type="text/css" href="hojaDeEstilo.css">
+		<!--El propósito principal de la funcionalidad de identificar usuario 
+		es el poder mantener un control y verificación de quienes pueden 
+		ingresar al sistema, además de a que herramientas pueden tener acceso, 
+		debido a que unos usuarios van a tener mayor control del sistema que otros.-->
+
+		<script Language="javascript">
+		//Entrada:id
+		//Salida:document.getElementById(id)
+		//Funcionamiento: accion del document.getElementById
+		function get(id){ 
+				return document.getElementById(id);
+		}
+		//Entrada:
+		//Salida:
+		//Funcionamiento: Colocar el cursor en la primera casilla
+		function PoneCursor(){
+                get('idNomUsua').focus();
+                return true;
+        }
+        //Entrada:formulario
+		//Salida:
+		//Funcionamiento: Validar todas las entradas del formulario
+        function Validar(formulario){
+        	if(get('idNomUsua').value==""){
+        		alert("Debe de ingresar el Usuario");
+        		get('idNomUsua').focus();
+        		return false;
+        	}else{
+        		if(get('idCont').value==""){
+        		alert("Debe de ingresar la contrase\u00F1a");
+        		get('idCont').focus();
+        		return false;
+        		/*}else{
+	        		var criterio=/^\w+\@{1}\w+\.{1}(\w+|\w+\.{1}\w+)$/
+	        		var criterio1=/^(?=.*\d)(?=.*[a-z]).{6,15}$/
+	        		if(!criterio.test(get('idNomUsua').value)){
+	        			alert("El Usuario o la Contrase\u00f1a con formato incorrecto");
+	        			return false;
+	        		}else{
+		        		if(!criterio1.test(get('idCont').value)){
+		        			alert("El Usuario o la Contrase\u00f1a con formato incorrecto");
+		        			return false;
+		        		}
+        			}*/
+        		}
+        	}
+			formulario.submit();
+        }
+        //Entrada:
+		//Salida:
+		//Funcionamiento: Vaciar todas las casillas del formulario
+        function reset(){
+			get(idfrmRegChof).reset();
+			return false;
+		}
+		</script>
+	</head>
+	<title>
+	</title>
+	<body onLoad="PoneCursor()">
+		<br><br><br><br><br><br><br><br><br><br><br>
+		<div align="center">
+			<br>
+			<form name="frmIdentUsa" id="idfrmIdentUsa" action="validarSesion.php" method="post">
+				<table >
+					<tr>
+						<td colspan="2" valign="bottom">
+							<h1>
+								Iniciar Sesi&oacute;n
+							</h1>
+						</td>
+						<td rowspan="4" >
+							<img src="logo.jpg" >
+						</td>
+					</tr>
+					<tr>
+						<td valign="bottom">
+							Usuario:
+						</td>
+						<td valign="bottom">
+							<input name="txtNomUsua" type="text" id="idNomUsua" ><!--Caja de usuario-->
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							Contrase&ntilde;a:
+						</td>
+						<td >
+							<input type="password" id="idCont" name="cntCont" value=""/><!--Caja de contrasenna-->
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center" valign="top" >
+							<input type="button" id="oboton" name="btReg" value="Iniciar" onClick="Validar(get('idfrmIdentUsa'))"/> <!--Iniciar seccion--><input type="button" id="oboton" name="btLimp" value="Limpiar"onClick="reset();PoneCursor()"/><!--Boton para limpiar campos-->
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>

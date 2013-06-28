@@ -1,0 +1,280 @@
+
+/* menu::base */
+div#menu {
+    height: 40px; /*ancho de la caja de menu */
+	background-color:#000000;
+
+}
+
+div#menu ul {
+    margin: 0;	
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+div#menu ul.menu {
+
+    padding-left: 250px;/*Permite centrar el menu */
+
+}
+
+div#menu li {
+	
+    position: relative;
+    margin: 0;
+    padding: 0 5px 0 0;
+    display: block;
+    float: left;
+    z-index: 9;
+}
+div#menu li:hover>ul {
+	
+	width: 250px;/*Hace ancho el tamaño de la celda del submenu */
+    left: 0;
+}
+
+div#menu a {
+    position: relative;
+    z-index: 10;
+    height: 40px;
+    display: block;
+    float: left;
+    line-height: 41px;
+    text-decoration: none;
+    color: rgb(185,190,158);
+    font: normal 22px Helvetica, Arial, sans-serif;
+    border: 1px solid #171717;
+    margin-top: 1px;
+    border-bottom: none;
+}
+div#menu.ie6 a {
+    border-color: #171717;
+    filter: chroma(color=#171717);
+}
+div#menu li:hover>a {
+    border: 1px solid #1c1c1c;
+    border-bottom-color: #000;
+    background: #000;
+}
+div#menu li:hover>a span {
+    color: #ccc;
+}
+div#menu a:hover {
+    color: #ccc;
+    border: 1px solid #1c1c1c;
+    border-bottom-color: #000;
+    background: #000;
+}
+div#menu.js-active a:hover {
+    border: 1px solid #171717;
+    border-bottom-color: #000;
+    background: #000;
+}
+div#menu.js-active a:hover span {
+    color: rgb(185,190,158);
+}
+div#menu li.current a {}
+
+div#menu span {
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+    text-align: center;
+}
+div#menu ul ul a.parent span {
+    background-position: 95% 8px;
+}
+div#menu ul ul a.parent:hover span {
+   
+}
+
+/* menu::level1 */
+div#menu a {
+	
+    padding: 0 10px 0 10px;
+    line-height: 24px;
+    height: 40px; /*Tamaño correspondiente al ancho de la celda del menu */
+}
+div#menu span {
+	
+    margin-top: 5px;
+    color: rgb(185,190,158);/* Color de las letras del menu*/
+    font: normal 22px Helvetica, Arial, sans-serif; /*Tamaño de la letras */
+}
+div#menu li { }
+div#menu li.last { background: none; }
+
+/* menu::level2 */
+div#menu ul ul li {
+    background: none;
+    padding: 0;
+    border-bottom: 0;
+}
+div#menu ul ul li,
+div#menu ul ul li a {
+    z-index: auto;
+}
+div#menu ul ul li ul {
+    z-index: 20;
+}
+div#menu ul ul {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: -999em;
+    width: 163px;
+    padding: 5px 0 0 0;
+    background: #000;
+    border: 1px solid #1c1c1c;
+    margin-top: 1px;
+}
+div#menu ul ul a {
+    padding: 0;
+    height: 30px;
+    float: none;
+    display: block;
+    line-height: 26px;
+    font-size: 18px;
+    border: 0;
+    z-index: -1;
+    white-space: nowrap;
+}
+div#menu ul ul a span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #ccc;
+}
+div#menu ul ul li:hover>a {
+    border: 0;
+}
+div#menu ul ul a:hover {
+    border: 0;
+    background: #111;
+}
+div#menu ul ul a:hover span {
+    color: rgb(185,190,158);/**@replace#1*/
+}
+div#menu ul ul span {
+    margin-top: 0;
+    text-align: left;
+}
+div#menu ul ul li.last { background: none; }
+div#menu ul ul li {
+    width: 100%;
+    text-indent: 15px;
+}
+
+/* menu::level3 */
+div#menu ul ul ul {
+    padding: 0;
+    margin: -54px 0 0 160px !important;
+    margin-left: 160px;
+}
+
+/** menu::subtext */
+div#menu span.subtext {
+    display: block;
+    font-size: 12px;
+    color: #9ba1ac;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+div#menu li:hover>a span.subtext {
+    color: #9ba1ac;
+}
+
+/* lava lamp */
+div#menu li.back {
+    position: absolute;
+    width: 10px;
+    height: 57px;
+    z-index: 8;
+    margin-top: 1px;
+}
+div#menu li.back .left {
+    height: 57px;
+    border: 1px solid #1c1c1c;
+    border-bottom: none;
+    margin-right: 5px;
+    background: #000;
+}
+
+* { margin:0;
+    padding:0;
+}
+
+div#menu {
+    margin:30px auto;
+    width:80%;
+}
+
+div#copyright {
+	background: black;
+    width:80%;
+    margin:0 auto;
+    font:11px 'Trebuchet MS';
+    color:rgb(185,190,158);
+    text-indent:30px;
+    padding:40px 0 0 0;
+	text-align:center;
+}
+div#copyright a { color:rgb(185,190,158); }
+div#copyright a:hover { color:rgb(185,190,158); }
+
+body { 
+	background:black;
+	font:'Myriad Pro', Helvetica, sans-serif;	
+}
+
+/* Hoja de estilo */
+/* Elaborado por:Sebastian Lapcevic */
+/* Fecha de  Creación: 14/03/2012   */ 
+/* Ultima modificación: 14/03/2012  */
+
+
+table{/*Tabla donde va el formulario*/
+	color: black; /* Pone de color las letras dentro del div*/
+	/* cursor: url("images/cursor.jpg"), wait; */
+	
+	/* background-color:#000000;  Pone el fondo de la tabla de este color*/
+}
+
+div{/*Div donde va el donde va todo*/
+	background:white;
+	width: 1050px;
+	margin: auto;
+	margin-top:50%
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+#oboton{/*Botones de registrar, buscar, limpiar, modificar*/
+	border:transparent;
+	background:#3F3F3F	;
+	color: white;
+	height: 40px;
+	width: 80px;
+	font:sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+		
+}
+#oboton:hover {/*Botones de registrar, buscar, limpiar, modificar*/
+	background:black;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+}
+li{
+	font-size: 15;
+	color: black;
+}
+h1{
+	margin-top: inherit;
+	color:black;
+	text-align:center;
+}
