@@ -1,0 +1,28 @@
+body {
+	color: #666;
+	font: 1.05em/1.2em 'Myriad Pro', Helvetica, sans-serif;
+	text-align: left;
+	margin: 0px;
+	background-image: url(stripes.png);
+}
+
+#container {
+	background-color: #FFF;
+	height: auto;
+	width: 900px;
+	padding: 3%;
+	margin: 30px auto;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	-webkit-box-shadow: 0px 0px 5px #000;
+	-moz-box-radius: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+	
+	-webkit-background-clip: padding;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	border: 8px solid transparent;
+}

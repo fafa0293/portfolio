@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- File Created: 22/Julio/2012 5:00pm -->
+
+    <title>Descripción del problema</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Chris Esquivel, Fabi&aacute;n Vega">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+
+<body>
+    <a id="top"></a>
+
+    <div id="container">
+    	<div id="menu">
+    	
+    		<h1>Men&uacute;:</h1>
+			<ul>
+			    <li><a href="index.html">P&aacute;gina Principal</a></li>
+			    <li><a href="descProblema.html">Descripci&oacute;n del problema</a></li>
+			    <li><a href="requerContexto.html">Requerimientos</a></li>
+			    <li><a href="diagCasosUso.html">Diagrama General Casos de Uso</a></li>
+			    <li><a href="casosExpandidos.html">Casos de Uso Expandido</a></li>
+			    <li><a href="contOper.html">Contratos de Operaciones</a></li>
+			    <li><a href="diagSecuencias.html">Diagramas de Secuencia</a></li>
+			    <li><a href="diagClases.html">Diagrama de Clases</a></li>
+			    <li><a href="modeloER.html">Modelo de Entidad Relaci&oacute;n</a></li>
+			    <li><a href="javaDoc.html">Javadoc</a></li>
+			    <li><a href="codigo.html">C&oacute;digo</a></li>
+			</ul>
+			
+			<hr>
+			
+			<h2>P&aacute;gina Principal</h2>
+			<p>
+				CLINICA “LA RESTAURADORA DE VEHICULOS OSEOS”.
+Debe desarrollar un sistema que permita la automatización del control de expedientes en una clínica.
+La aplicación ofrecerá las siguientes funcionalidades:
+1. Registrar doctor. Los datos relevantes del doctor son: identificación, nombre, especialidad, teléfono. Se debe validar que el doctor no exista, para poder llevar a cabo su registro.
+2. Consultar doctor. Lista los doctores existentes de los cuales se puede seleccionar uno y mostrar su información. También es posible introducir el número de identificación del doctor y mostrar sus datos particulares.
+3. Administración de expedientes. Permite realizar cualquiera de las siguientes operaciones: Abrir expediente, Consultar expediente, Eliminar expediente.
+La consulta del expediente se hará por número de expediente o número de carné del paciente. Deberá mostrar la información del expediente y del paciente.
+Para abrir expediente se requiera el número de expediente, la fecha de apertura y el paciente a quien se le abre el expediente. Del paciente interesa: número de carné, nombre, dirección, teléfono, fecha de nacimiento y edad. El número de expediente será autonumerado y comienza con la cadena “CSM-”
+4. Administrar Consultas. El sistema registrará consultas de un paciente y buscará por una consulta. Al registrar una consulta, esta se agregará al expediente del paciente. Se deberá registrar el doctor que atiende al paciente, fecha de realización, una descripción del problema que sufre el paciente, medicinas recetadas y exámenes indicados.
+De las medicinas recetadas se requiere el nombre de la medicina, número de días que la debe tomar, fecha de inicio del consumo, fecha de finalización del consumo, dosis indicada y precauciones.
+De los exámenes indicados se debe registrar, el nombre del examen, fecha solicitado, fecha realizado, indicaciones.
+Para buscar las consultas de un paciente se puede realizar listando todas las consultas de un paciente, mostrando las fechas en que se sucedieron y seleccionar una en particular o se puede introducir una fecha en particular. Mostrará todos los detalles de la consulta así como la lista de nombres de exámenes y nombres de medicamentos en la consulta, de los cuales el usuario podrá seleccionar ver los detalles de cualquiera de ellos. Los exámenes deberán mostrar los detalles del examen así como los resultados registrados para dicho examen
+5. Administrar exámenes así como resultados de un examen. Debe registrar, eliminar y modificar exámenes y resultados de examen. Cada examen indicado deberá tener su resultado asociado. Al registrar un resultado interesa: nombre del lugar donde se realizó, si el lugar es público o privado, descripción. Existen exámenes cuyo resultado se descompone en un conjunto de ítems. Para cada uno de estos ítems se debe indicar el nombre, el valor, las unidades en que se mide, límite inferior del valor normal y límite superior del valor normal. Si el valor resultante del ítem está fuera del rango de valores normales se deberá presentar en rojo.
+6. Administrar citas. Permite registrar, buscar y modificar citas. El sistema no debe permitir registrar una consulta sin previa cita y no es posible realizar dos citas en la misma semana. De la cita interesa el número del expediente del paciente, el doctor que atenderá la consulta en el día de la cita, fecha de la cita y descripción. No se pueden eliminar citas pero si se pueden anular de tal forma que es posible determinar las citas a las cuales el paciente no ha asistido. Una cita se considera anulada cuando el paciente no asiste. También es posible cancelar una cita. Cancelar una cita implica crear una nueva cita con los mismos datos de la cita cancelada excepto la fecha, la cual representa la nueva fecha establecida. La cita previa pasa a estado cancelada.
+Se debe poder buscar para un paciente las citas anuladas, citas canceladas y la cita asignada. Una cita asignada es una cita vigente. Solamente puede haber una cita asignada. No se debe permitir asignar citas para fechas anteriores al día actual.
+				
+			</p>
+						
+    	</div>
+        
+    </div>
+
+    <div id="footer">
+        <a href="#top">Back to top</a>
+    </div>
+</body>
+</html>

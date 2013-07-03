@@ -1,0 +1,57 @@
+/* Developed by: Chris Eskivel */
+/*
+Color Palette:
+#e6e6e6 - Text
+#797a7a - Div Background
+#FFF - Links
+#000080 - Special
+*/
+
+body {
+	color:#000;
+	font:10pt "Lucida Grande",Verdana,sans-serif;
+	background-image:url(background.gif)
+}
+
+table {
+	margin:auto
+}
+
+#container {
+	background-color:#dadada;
+	width:75%;
+	margin:10px auto;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+	border:none 5px #000;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow:0 0 10px #000;
+	box-shadow:0 0 10px #000
+}
+
+a {
+	color:#000;
+	text-decoration:none
+}
+
+a:hover {
+	text-shadow:0 0 35px #fff;
+	text-decoration:underline
+}
+
+#footer {
+	background-color:#dadada;
+	float:right;
+	padding-right:10px;
+	padding-left:10px;
+	padding-bottom:20px;
+	padding-top:10px;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
