@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C55CF13-7E05-44DC-8D45-8A3729570932}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>solLogica</RootNamespace>
+    <AssemblyName>solLogica</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccesoBD, Version=1.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\AccesoBD\AccesoBD\bin\Debug\AccesoBD.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clase\Aporte.cs" />
+    <Compile Include="Clase\Bitacora.cs" />
+    <Compile Include="Clase\Blog.cs" />
+    <Compile Include="Clase\Calificacion.cs" />
+    <Compile Include="Clase\Carrera.cs" />
+    <Compile Include="Clase\Comentario.cs" />
+    <Compile Include="Clase\Curso.cs" />
+    <Compile Include="Clase\Entrada.cs" />
+    <Compile Include="Clase\Foro.cs" />
+    <Compile Include="Clase\Permiso.cs" />
+    <Compile Include="Clase\TemaEntrada.cs" />
+    <Compile Include="Clase\Usuario.cs" />
+    <Compile Include="Estructura\StrAporte.cs" />
+    <Compile Include="Estructura\StrAporteDenuncia.cs" />
+    <Compile Include="Estructura\StrBitacora.cs" />
+    <Compile Include="Estructura\StrBlog.cs" />
+    <Compile Include="Estructura\StrCalificacion.cs" />
+    <Compile Include="Estructura\StrCarrera.cs" />
+    <Compile Include="Estructura\StrComentario.cs" />
+    <Compile Include="Estructura\StrCurso.cs" />
+    <Compile Include="Estructura\StrEntrada.cs" />
+    <Compile Include="Estructura\StrForo.cs" />
+    <Compile Include="Estructura\StrGrupo.cs" />
+    <Compile Include="Estructura\StrPermiso.cs" />
+    <Compile Include="Estructura\StrRol.cs" />
+    <Compile Include="Estructura\StrTema.cs" />
+    <Compile Include="Estructura\StrTemaEntrada.cs" />
+    <Compile Include="Estructura\StrUsuario.cs" />
+    <Compile Include="Gestor\GestorAporte.cs" />
+    <Compile Include="Gestor\GestorBlog.cs" />
+    <Compile Include="Gestor\GestorCarrera.cs" />
+    <Compile Include="Gestor\GestorComentario.cs" />
+    <Compile Include="Gestor\GestorCurso.cs" />
+    <Compile Include="Gestor\GestorEntrada.cs" />
+    <Compile Include="Gestor\GestorForo.cs" />
+    <Compile Include="Gestor\GestorGrupo.cs" />
+    <Compile Include="Gestor\GestorBitacora.cs" />
+    <Compile Include="Gestor\GestorPermiso.cs" />
+    <Compile Include="Gestor\GestorRol.cs" />
+    <Compile Include="Clase\Grupo.cs" />
+    <Compile Include="Gestor\GestorSeguridad.cs" />
+    <Compile Include="Gestor\GestorSesion.cs" />
+    <Compile Include="Gestor\GestorTema.cs" />
+    <Compile Include="Gestor\GestorUsuario.cs" />
+    <Compile Include="Persistente\PersAporte.cs" />
+    <Compile Include="Persistente\PersBitacora.cs" />
+    <Compile Include="Persistente\PersBlog.cs" />
+    <Compile Include="Persistente\PersCarrera.cs" />
+    <Compile Include="Persistente\PersComentario.cs" />
+    <Compile Include="Persistente\PersCurso.cs" />
+    <Compile Include="Persistente\PersEntrada.cs" />
+    <Compile Include="Persistente\PersGrupo.cs" />
+    <Compile Include="Persistente\PersForo.cs" />
+    <Compile Include="Persistente\PersistAbstracto.cs" />
+    <Compile Include="Persistente\PersPermiso.cs" />
+    <Compile Include="Persistente\PersRol.cs" />
+    <Compile Include="Persistente\PersTema.cs" />
+    <Compile Include="Persistente\PersUsuario.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Clase\Rol.cs" />
+    <Compile Include="Clase\Tema.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

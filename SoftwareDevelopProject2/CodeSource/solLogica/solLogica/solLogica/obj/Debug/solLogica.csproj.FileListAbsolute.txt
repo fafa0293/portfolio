@@ -1,0 +1,9 @@
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\bin\Debug\solLogica.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\bin\Debug\solLogica.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\bin\Debug\AccesoBD.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\bin\Debug\AccesoBD.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\obj\Debug\solLogica.Properties.Resources.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\obj\Debug\solLogica.csproj.GenerateResource.Cache
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\obj\Debug\solLogica.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\obj\Debug\solLogica.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\obj\Debug\solLogica.csprojResolveAssemblyReference.cache

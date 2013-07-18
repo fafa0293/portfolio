@@ -1,0 +1,9 @@
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\bin\AppWeb.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\bin\solLogica.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\bin\AccesoBD.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\bin\solLogica.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\bin\AccesoBD.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\obj\Release\RdlCompile.cache
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\obj\Release\RdlCompile.compiled
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\obj\Release\AppWeb.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\AppWeb\AppWeb\obj\Release\AppWeb.vbprojResolveAssemblyReference.cache

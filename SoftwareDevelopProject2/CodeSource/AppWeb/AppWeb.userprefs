@@ -1,0 +1,24 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppWeb/ModificarPerfil.aspx">
+    <Files>
+      <File FileName="AppWeb/MasterPage.master" Line="50" Column="55" />
+      <File FileName="AppWeb/Principal.aspx" Line="16" Column="4" />
+      <File FileName="AppWeb/ModificarPerfil.aspx" Line="70" Column="11" />
+      <File FileName="AppWeb/ModificarPerfil.aspx.vb" Line="3" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="AppWeb" expanded="True">
+            <Node name="ModificarPerfil.aspx" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

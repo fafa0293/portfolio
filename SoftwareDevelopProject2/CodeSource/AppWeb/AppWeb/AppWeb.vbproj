@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B2163699-975A-4CA6-803F-31C517E9DCAA}</ProjectGuid>
+    <ProjectTypeGuids>{349C5851-65DF-11DA-9384-00065B846F21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AppWeb</RootNamespace>
+    <AssemblyName>AppWeb</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>False</DefineTrace>
+    <AdditionalParameters />
+    <ConsolePause>False</ConsolePause>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>False</DefineTrace>
+    <AdditionalParameters />
+    <ConsolePause>False</ConsolePause>
+    <NoWarn>42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="solLogica, Version=1.0.1.2, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\solLogica\solLogica\solLogica\bin\Debug\solLogica.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AsignarEstudianteAGrupo.aspx" />
+    <Content Include="AsignarEstudianteATema.aspx" />
+    <Content Include="AsignarProfeAGrupo.aspx" />
+    <Content Include="Ayuda.aspx" />
+    <Content Include="Blog.aspx" />
+    <Content Include="BuscarBlog.aspx" />
+    <Content Include="CerrarSesion.aspx" />
+    <Content Include="ComentariosAporte.aspx" />
+    <Content Include="css\jquery-ui-1.9.1.custom.min.css" />
+    <Content Include="css\jquery.tagsinput.css" />
+    <Content Include="denunciarAporte.aspx" />
+    <Content Include="DenunciarEntrada.aspx" />
+    <Content Include="Entrada.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="EstudiantesGrupo.aspx" />
+    <Content Include="EstudiantesTema.aspx" />
+    <Content Include="Foro.aspx" />
+    <Content Include="img\ui\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="img\ui\ui-bg_flat_0_eeeeee_40x100.png" />
+    <Content Include="img\ui\ui-bg_flat_55_c0402a_40x100.png" />
+    <Content Include="img\ui\ui-bg_flat_55_eeeeee_40x100.png" />
+    <Content Include="img\ui\ui-bg_glass_100_f8f8f8_1x400.png" />
+    <Content Include="img\ui\ui-bg_glass_35_dddddd_1x400.png" />
+    <Content Include="img\ui\ui-bg_glass_60_eeeeee_1x400.png" />
+    <Content Include="img\ui\ui-bg_inset-hard_75_999999_1x100.png" />
+    <Content Include="img\ui\ui-bg_inset-soft_50_c9c9c9_1x100.png" />
+    <Content Include="img\ui\ui-icons_3383bb_256x240.png" />
+    <Content Include="img\ui\ui-icons_454545_256x240.png" />
+    <Content Include="img\ui\ui-icons_70b2e1_256x240.png" />
+    <Content Include="img\ui\ui-icons_999999_256x240.png" />
+    <Content Include="img\ui\ui-icons_fbc856_256x240.png" />
+    <Content Include="IniciarSesion.aspx" />
+    <Content Include="js\dropdown-menu.js" />
+    <Content Include="js\help.js" />
+    <Content Include="js\jquery-ui-1.9.1.custom.min.js" />
+    <Content Include="js\jquery.tagsinput.js" />
+    <Content Include="js\jquery.validate.min.js" />
+    <Content Include="ListarCurso.aspx" />
+    <Content Include="ListarForo.aspx" />
+    <Content Include="ListarGrupo.aspx" />
+    <Content Include="ModificarEntrada.aspx" />
+    <Content Include="ModificarPerfil.aspx" />
+    <Content Include="ModificarTema.aspx" />
+    <Content Include="css\main.css" />
+    <Content Include="css\normalize.css" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\cenfo.jpg" />
+    <Content Include="img\cenfoLogo.jpg" />
+    <Content Include="js\common.js" />
+    <Content Include="js\jquery-1.8.2.min.js" />
+    <Content Include="Principal.aspx" />
+    <Content Include="ProfesorGrupo.aspx" />
+    <Content Include="ReporteArticulosDeBlogLista.aspx" />
+    <Content Include="ReporteBlogsConMejoresNotas.aspx" />
+    <Content Include="ReporteBlogsMasComentadosNotas.aspx" />
+    <Content Include="ReporteCantAportesEstudianteForo.aspx" />
+    <Content Include="ReporteCantAportesEstudianteForoGrafico.aspx" />
+    <Content Include="ReporteCantidadAportesPorDiaTema.aspx" />
+    <Content Include="ReporteCantidadAportesPorDiaTemaGrafico.aspx" />
+    <Content Include="ReporteEnListaGruposForoCalificacion.aspx" />
+    <Content Include="ReporteGrupoMayorCalificacionGrafico.aspx" />
+    <Content Include="ReporteGruposMayorCalificacion.aspx" />
+    <Content Include="ReporteGruposMayorCalificacionGrafico.aspx" />
+    <Content Include="ReporteListaBlogsMasComentados.aspx" />
+    <Content Include="ReporteListaBlogsXFechaUltimaEntrada.aspx" />
+    <Content Include="ReporteListaForoConCeroTemas.aspx" />
+    <Content Include="ReporteNotasPorAporteTema.aspx" />
+    <Content Include="Reportes.aspx" />
+    <Content Include="ReporteCantidadEntradasDeUnBlog.aspx" />
+    <Content Include="Tema.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsignarEstudianteAGrupo.aspx.designer.vb">
+      <DependentUpon>AsignarEstudianteAGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarEstudianteAGrupo.aspx.vb">
+      <DependentUpon>AsignarEstudianteAGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AsignarEstudianteATema.aspx.designer.vb">
+      <DependentUpon>AsignarEstudianteATema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarEstudianteATema.aspx.vb">
+      <DependentUpon>AsignarEstudianteATema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AsignarProfeAGrupo.aspx.designer.vb">
+      <DependentUpon>AsignarProfeAGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AsignarProfeAGrupo.aspx.vb">
+      <DependentUpon>AsignarProfeAGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ayuda.aspx.designer.vb">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ayuda.aspx.vb">
+      <DependentUpon>Ayuda.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BuscarBlog.aspx.designer.vb">
+      <DependentUpon>BuscarBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BuscarBlog.aspx.vb">
+      <DependentUpon>BuscarBlog.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ComentariosAporte.aspx.designer.vb">
+      <DependentUpon>ComentariosAporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComentariosAporte.aspx.vb">
+      <DependentUpon>ComentariosAporte.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReporteCantidadEntradasDeUnBlog.aspx.designer.vb">
+      <DependentUpon>ReporteCantidadEntradasDeUnBlog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCantidadEntradasDeUnBlog.aspx.vb">
+      <DependentUpon>ReporteCantidadEntradasDeUnBlog.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteCantidadEntradasDeUnBlogDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteCantidadEntradasDeUnBlogDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteGruposMayorCalificacion.aspx.designer.vb">
+      <DependentUpon>ReporteGruposMayorCalificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteGruposMayorCalificacion.aspx.vb">
+      <DependentUpon>ReporteGruposMayorCalificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteGruposMayorCalificacionGrafico.aspx.designer.vb">
+      <DependentUpon>ReporteGruposMayorCalificacionGrafico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteGruposMayorCalificacionGrafico.aspx.vb">
+      <DependentUpon>ReporteGruposMayorCalificacionGrafico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteListaBlogsXFechaUltimaEntrada.aspx.designer.vb">
+      <DependentUpon>ReporteListaBlogsXFechaUltimaEntrada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteListaBlogsXFechaUltimaEntrada.aspx.vb">
+      <DependentUpon>ReporteListaBlogsXFechaUltimaEntrada.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes.aspx.designer.vb">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes.aspx.vb">
+      <DependentUpon>Reportes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteListaForoConCeroTemas.aspx.designer.vb">
+      <DependentUpon>ReporteListaForoConCeroTemas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteListaForoConCeroTemas.aspx.vb">
+      <DependentUpon>ReporteListaForoConCeroTemas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\BDStarCommunitySystemDataSet_ForoCeroTemasLista.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDStarCommunitySystemDataSet_ForoCeroTemasLista.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ListarForo.aspx.designer.vb">
+      <DependentUpon>ListarForo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarForo.aspx.vb">
+      <DependentUpon>ListarForo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteArticulosDeBlogLista.aspx.designer.vb">
+      <DependentUpon>ReporteArticulosDeBlogLista.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteArticulosDeBlogLista.aspx.vb">
+      <DependentUpon>ReporteArticulosDeBlogLista.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.designer.vb">
+      <DependentUpon>Principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteEnListaGruposForoCalificacion.aspx.designer.vb">
+      <DependentUpon>ReporteEnListaGruposForoCalificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteEnListaGruposForoCalificacion.aspx.vb">
+      <DependentUpon>ReporteEnListaGruposForoCalificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.aspx.vb">
+      <DependentUpon>Principal.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReporteGrupoMayorCalificacionGrafico.aspx.designer.vb">
+      <DependentUpon>ReporteGrupoMayorCalificacionGrafico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteGrupoMayorCalificacionGrafico.aspx.vb">
+      <DependentUpon>ReporteGrupoMayorCalificacionGrafico.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteGruposMayorCalificacionParticipacion.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteGruposMayorCalificacionParticipacion.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteListaBlogsMasComentados.aspx.designer.vb">
+      <DependentUpon>ReporteListaBlogsMasComentados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteListaBlogsMasComentados.aspx.vb">
+      <DependentUpon>ReporteListaBlogsMasComentados.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteListaBlogMasComentadosNota.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteListaBlogMasComentadosNota.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ListaArticulosDeBlogDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ListaArticulosDeBlogDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\BDStarCommunitySystemBlogMejorNota1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDStarCommunitySystemBlogMejorNota.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Blog.aspx.designer.vb">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Blog.aspx.vb">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CerrarSesion.aspx.designer.vb">
+      <DependentUpon>CerrarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CerrarSesion.aspx.vb">
+      <DependentUpon>CerrarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="denunciarAporte.aspx.designer.vb">
+      <DependentUpon>denunciarAporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="denunciarAporte.aspx.vb">
+      <DependentUpon>denunciarAporte.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DenunciarEntrada.aspx.designer.vb">
+      <DependentUpon>DenunciarEntrada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DenunciarEntrada.aspx.vb">
+      <DependentUpon>DenunciarEntrada.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Entrada.aspx.designer.vb">
+      <DependentUpon>Entrada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entrada.aspx.vb">
+      <DependentUpon>Entrada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.vb">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EstudiantesGrupo.aspx.designer.vb">
+      <DependentUpon>EstudiantesGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstudiantesGrupo.aspx.vb">
+      <DependentUpon>EstudiantesGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="EstudiantesTema.aspx.designer.vb">
+      <DependentUpon>EstudiantesTema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EstudiantesTema.aspx.vb">
+      <DependentUpon>EstudiantesTema.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Foro.aspx.designer.vb">
+      <DependentUpon>Foro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Foro.aspx.vb">
+      <DependentUpon>Foro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="IniciarSesion.aspx.designer.vb">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IniciarSesion.aspx.vb">
+      <DependentUpon>IniciarSesion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ListarCurso.aspx.designer.vb">
+      <DependentUpon>ListarCurso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarCurso.aspx.vb">
+      <DependentUpon>ListarCurso.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ListarGrupo.aspx.designer.vb">
+      <DependentUpon>ListarGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarGrupo.aspx.vb">
+      <DependentUpon>ListarGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ModificarEntrada.aspx.designer.vb">
+      <DependentUpon>ModificarEntrada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarEntrada.aspx.vb">
+      <DependentUpon>ModificarEntrada.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ModificarPerfil.aspx.designer.vb">
+      <DependentUpon>ModificarPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarPerfil.aspx.vb">
+      <DependentUpon>ModificarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarTema.aspx.designer.vb">
+      <DependentUpon>ModificarTema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarTema.aspx.vb">
+      <DependentUpon>ModificarTema.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ModuloUtilitario.vb" />
+    <Compile Include="ProfesorGrupo.aspx.designer.vb">
+      <DependentUpon>ProfesorGrupo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfesorGrupo.aspx.vb">
+      <DependentUpon>ProfesorGrupo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReporteBlogsConMejoresNotas.aspx.designer.vb">
+      <DependentUpon>ReporteBlogsConMejoresNotas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteBlogsConMejoresNotas.aspx.vb">
+      <DependentUpon>ReporteBlogsConMejoresNotas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteBlogsMasComentadosNotas.aspx.designer.vb">
+      <DependentUpon>ReporteBlogsMasComentadosNotas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteBlogsMasComentadosNotas.aspx.vb">
+      <DependentUpon>ReporteBlogsMasComentadosNotas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteCantAportesEstudianteForo.aspx.designer.vb">
+      <DependentUpon>ReporteCantAportesEstudianteForo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCantAportesEstudianteForo.aspx.vb">
+      <DependentUpon>ReporteCantAportesEstudianteForo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteCantAportesEstudianteForoGrafico.aspx.designer.vb">
+      <DependentUpon>ReporteCantAportesEstudianteForoGrafico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCantAportesEstudianteForoGrafico.aspx.vb">
+      <DependentUpon>ReporteCantAportesEstudianteForoGrafico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteCantidadAportesPorDiaTema.aspx.designer.vb">
+      <DependentUpon>ReporteCantidadAportesPorDiaTema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCantidadAportesPorDiaTema.aspx.vb">
+      <DependentUpon>ReporteCantidadAportesPorDiaTema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteCantidadAportesPorDiaTemaGrafico.aspx.designer.vb">
+      <DependentUpon>ReporteCantidadAportesPorDiaTemaGrafico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteCantidadAportesPorDiaTemaGrafico.aspx.vb">
+      <DependentUpon>ReporteCantidadAportesPorDiaTemaGrafico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteNotasPorAporteTema.aspx.designer.vb">
+      <DependentUpon>ReporteNotasPorAporteTema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteNotasPorAporteTema.aspx.vb">
+      <DependentUpon>ReporteNotasPorAporteTema.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteNotasPorAporteTema.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReporteNotasPorAporteTema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\BDStarCommunitySystemDataSet.Designer.vb" />
+    <Compile Include="Reportes\ReporteCantAportesEstudianteForoDataSet.Designer.vb" />
+    <Compile Include="Tema.aspx.designer.vb">
+      <DependentUpon>Tema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tema.aspx.vb">
+      <DependentUpon>Tema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <Content Include="Reportes\BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.xsc">
+      <DependentUpon>BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.xss">
+      <DependentUpon>BDStarCommunitySystemDataSet_BlogsFechaUltimaEntrada.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemDataSet_ForoCeroTemasLista.xsc">
+      <DependentUpon>BDStarCommunitySystemDataSet_ForoCeroTemasLista.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemDataSet_ForoCeroTemasLista.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDStarCommunitySystemDataSet_ForoCeroTemasLista.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemDataSet_ForoCeroTemasLista.xss">
+      <DependentUpon>BDStarCommunitySystemDataSet_ForoCeroTemasLista.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteGruposMayorCalificacionParticipacion.xsc">
+      <DependentUpon>ReporteGruposMayorCalificacionParticipacion.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteGruposMayorCalificacionParticipacion.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteGruposMayorCalificacionParticipacion.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\ReporteGruposMayorCalificacionParticipacion.xss">
+      <DependentUpon>ReporteGruposMayorCalificacionParticipacion.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteListaBlogMasComentadosNota.xsc">
+      <DependentUpon>ReporteListaBlogMasComentadosNota.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteListaBlogMasComentadosNota.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteListaBlogMasComentadosNota.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\ReporteListaBlogMasComentadosNota.xss">
+      <DependentUpon>ReporteListaBlogMasComentadosNota.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ListaArticulosDeBlogDataSet.xsc">
+      <DependentUpon>ListaArticulosDeBlogDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ListaArticulosDeBlogDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ListaArticulosDeBlogDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\ListaArticulosDeBlogDataSet.xss">
+      <DependentUpon>ListaArticulosDeBlogDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemBlogMejorNota.xsc">
+      <DependentUpon>BDStarCommunitySystemBlogMejorNota.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemBlogMejorNota.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDStarCommunitySystemBlogMejorNota1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemBlogMejorNota.xss">
+      <DependentUpon>BDStarCommunitySystemBlogMejorNota.xsd</DependentUpon>
+    </Content>
+    <Content Include="fonts\Ubuntu Font License 1.0.txt" />
+    <Content Include="fonts\Ubuntu-B-webfont.eot" />
+    <Content Include="fonts\Ubuntu-B-webfont.svg" />
+    <Content Include="fonts\Ubuntu-B-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-B-webfont.woff" />
+    <Content Include="fonts\Ubuntu-BI-webfont.eot" />
+    <Content Include="fonts\Ubuntu-BI-webfont.svg" />
+    <Content Include="fonts\Ubuntu-BI-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-BI-webfont.woff" />
+    <Content Include="fonts\Ubuntu-C-webfont.eot" />
+    <Content Include="fonts\Ubuntu-C-webfont.svg" />
+    <Content Include="fonts\Ubuntu-C-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-C-webfont.woff" />
+    <Content Include="fonts\Ubuntu-L-webfont.eot" />
+    <Content Include="fonts\Ubuntu-L-webfont.svg" />
+    <Content Include="fonts\Ubuntu-L-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-L-webfont.woff" />
+    <Content Include="fonts\Ubuntu-LI-webfont.eot" />
+    <Content Include="fonts\Ubuntu-LI-webfont.svg" />
+    <Content Include="fonts\Ubuntu-LI-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-LI-webfont.woff" />
+    <Content Include="fonts\Ubuntu-M-webfont.eot" />
+    <Content Include="fonts\Ubuntu-M-webfont.svg" />
+    <Content Include="fonts\Ubuntu-M-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-M-webfont.woff" />
+    <Content Include="fonts\Ubuntu-MI-webfont.eot" />
+    <Content Include="fonts\Ubuntu-MI-webfont.svg" />
+    <Content Include="fonts\Ubuntu-MI-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-MI-webfont.woff" />
+    <Content Include="fonts\Ubuntu-R-webfont.eot" />
+    <Content Include="fonts\Ubuntu-R-webfont.svg" />
+    <Content Include="fonts\Ubuntu-R-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-R-webfont.woff" />
+    <Content Include="fonts\Ubuntu-RI-webfont.eot" />
+    <Content Include="fonts\Ubuntu-RI-webfont.svg" />
+    <Content Include="fonts\Ubuntu-RI-webfont.ttf" />
+    <Content Include="fonts\Ubuntu-RI-webfont.woff" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\ReporteNotasPorAporteTema.xsc">
+      <DependentUpon>ReporteNotasPorAporteTema.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteNotasPorAporteTema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteNotasPorAporteTema.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\ReporteNotasPorAporteTema.xss">
+      <DependentUpon>ReporteNotasPorAporteTema.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemDataSet.xsc">
+      <DependentUpon>BDStarCommunitySystemDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\BDStarCommunitySystemDataSet.xsd" />
+    <Content Include="Reportes\BDStarCommunitySystemDataSet.xss">
+      <DependentUpon>BDStarCommunitySystemDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteCantAportesEstudianteForoDataSet.xsc">
+      <DependentUpon>ReporteCantAportesEstudianteForoDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteCantAportesEstudianteForoDataSet.xsd" />
+    <Content Include="Reportes\ReporteCantAportesEstudianteForoDataSet.xss">
+      <DependentUpon>ReporteCantAportesEstudianteForoDataSet.xsd</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reportes\ReporteArticulosBlogLista.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteBlogsMasComentadosNota.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteBlogsMejorNota..rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteCantAportesEstudianteForo.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteCantAportesEstudianteForoGrafico.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteCantAportesTemaDia.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteCantAportesTemaDiaGrafico.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteCantidadEntradasDeUnBlog.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteForoCeroTemas_Lista.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteGrupoMayorParticapacionCalificacion.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteListaBlogsMasComentados.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteListaBlogsXFechaUltimaEntrada.rdlc" />
+    <EmbeddedResource Include="Reportes\ReporteNotasPorAporteTema.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reportes\ReporteCantidadEntradasDeUnBlogDataSet.xsc">
+      <DependentUpon>ReporteCantidadEntradasDeUnBlogDataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="Reportes\ReporteCantidadEntradasDeUnBlogDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReporteCantidadEntradasDeUnBlogDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reportes\ReporteCantidadEntradasDeUnBlogDataSet.xss">
+      <DependentUpon>ReporteCantidadEntradasDeUnBlogDataSet.xsd</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties VerifyCodeBehindFields="True" VerifyCodeBehindEvents="True">
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="Content" SslProtocol="Default" KeyType="Content" CertFile="" KeyFile="" PasswordOptions="Content" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+    <VisualStudio>
+      <FlavorProperties GUID="{349C5851-65DF-11DA-9384-00065B846F21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>7412</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

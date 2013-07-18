@@ -1,0 +1,213 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+capaPresentacion
+</name>
+</assembly>
+<members>
+<member name="M:capaPresentacion.frmAsignarDirectorAcademicoCarrera.cargarListas">
+	<summary>
+ Método de la clase encargada de cargar las listas de los comboBox
+ </summary>
+	<remarks>Author: Ernesto Villarreal</remarks>
+</member><member name="M:capaPresentacion.frmAsignarDirectorAcademicoCarrera.validar">
+	<summary>
+ Método de la clase encargado de la validacion de los datos
+</summary>
+	<remarks>Author: Ernesto Villarreal</remarks>
+</member><member name="M:capaPresentacion.frmBuscarCurso.evaluar">
+	<summary>
+ Método de clase, encarga de evaluar el tipo de busqueda
+ </summary>
+	<remarks>Autor: Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmBuscarCurso.validarCampos">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmBuscarCurso.limpiarFormulario">
+	<summary>
+ Método de clase, encarga de limpiar el formulario de Buscar
+ </summary>
+	<remarks>Autor: Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmBuscarGrupo.validar">
+	<summary>
+ Metodo para validar que los campos del formulario no esten vacios 
+ y cumplan con el formato correcto.
+ </summary>
+	<returns>Valor booleano.</returns>
+	<remarks>Autor: Dylhann Obando</remarks>
+</member><member name="M:capaPresentacion.frmBuscarGrupo.validarDataGrid">
+	<summary>
+ Metodo para validar que hayan registros en datagrid.
+ </summary>
+	<returns>Valor booleano.</returns>
+	<remarks>Autor: Dylhann Obando</remarks>
+</member><member name="M:capaPresentacion.frmAsignarEstudianteTema.cargarListas">
+	<summary>
+ Método de clase, encarga de cargar las listas
+ </summary>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmAsignarEstudianteTema.validar">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarCurso.validarCampos">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarCurso.evaluarCreditos(System.String)">
+	<summary>
+ Método de clase, encarga de evaluar si es un dato numerico
+ </summary>
+	<returns name="_result">retorna un valor Boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarCurso.limpiarFormulario">
+	<summary>
+ Método de clase, encarga de limpiar el formulario de Registrar
+ </summary>
+	<remarks>Autor: Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarGrupo.validar">
+	<summary>
+ Metodo que validar que los campos del formulario no esten vacios 
+ y cumplan con el formato correcto.
+ </summary>
+	<returns>Valor booleano.</returns>
+	<remarks>Autor: Dylhann Obando</remarks>
+</member><member name="M:capaPresentacion.frmModificarCurso.cargarDatos(System.Int32,System.String@,System.String,System.Int32,System.String)">
+	<summary>
+ Método de clase, encarga de cargar los datos al formulario de modificar
+ </summary>
+	<remarks>Autor: Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmModificarCurso.validarCampos">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmModificarCurso.evaluarCreditos(System.String)">
+	<summary>
+ Método de clase, encarga de evaluar si es un dato numerico
+ </summary>
+	<returns name="_result">retorna un valor Boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmAsignarEstudianteGrupo.cargarListas">
+	<summary>
+	</summary>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmAsignarEstudianteGrupo.validar">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmModificarCarrera.validarCampos">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="result">retorna un valor boolean</returns>
+	<remarks>Autor: Ernesto Villarreal</remarks>
+</member><member name="P:capaPresentacion.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:capaPresentacion.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:capaPresentacion.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="M:capaPresentacion.frmModificarTema.validar">
+	<summary>
+ Metodo para validar que los campos del formulario no esten vacios 
+ y cumplan con el formato correcto.
+ </summary>
+	<returns>Valor booleano.</returns>
+	<remarks>Autor: Dylhann Obando</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarCarrera.validarCampos">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="result">retorna un valor boolean</returns>
+	<remarks>Autor: Ernesto Villarreal</remarks>
+</member><member name="M:capaPresentacion.frmModificarUsuario.validarCampos">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor: Ernesto Villarreal</remarks>
+</member><member name="M:capaPresentacion.frmModificarUsuario.evaluar">
+	<summary>
+ Método de clase, encarga de evaluar el tipo de genero
+ </summary>
+	<remarks>Autor: Ernesto Villarreal</remarks>
+</member><member name="M:capaPresentacion.frmModificarUsuario.evaluarNumeros(System.String)">
+	<summary>
+ Método de clase, encarga de evaluar si es un dato numerico
+ </summary>
+	<returns name="_result">retorna un valor Boolean</returns>
+	<remarks>Autor: Ernesto Villarreal</remarks>
+</member><member name="M:capaPresentacion.frmModificarUsuario.evaluarCorreo(System.Object)">
+	<summary>
+ Método de clase, encarga de evaluar el formato del correo
+ </summary>
+	<returns name="_result">retorna un valor Boolean</returns>
+	<remarks>Autor:Ernesto Villarreal</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarUsuario.validarCampos">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarUsuario.evaluar">
+	<summary>
+ Método de clase, encarga de evaluar el tipo de genero
+ </summary>
+	<remarks>Autor: Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarUsuario.evaluarNumeros(System.String)">
+	<summary>
+ Método de clase, encarga de evaluar si es un dato numerico
+ </summary>
+	<returns name="_result">retorna un valor Boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarUsuario.evaluarCorreo(System.Object)">
+	<summary>
+ Método de clase, encarga de evaluar el formato del correo
+ </summary>
+	<returns name="_result">retorna un valor Boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmRegistrarUsuario.limpiarFormulario">
+	<summary>
+ Método de clase, encarga de limpiar el formulario de Registrar
+ </summary>
+	<remarks>Autor: Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmAsignarRolAUsuario.cargarListas">
+	<summary>
+ Método de clase, encarga de cargar las listas
+ </summary>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmAsignarRolAUsuario.validar">
+	<summary>
+ Método de clase, encarga de evaluar que no queden espacios en blanco ningún componente
+ </summary>
+	<returns name="_result">retorna un valor boolean</returns>
+	<remarks>Autor:Christopher Vargas</remarks>
+</member><member name="M:capaPresentacion.frmModicarGrupo.validar">
+	<summary>
+ Metodo para validar que los campos del formulario no esten vacios 
+ y cumplan con el formato correcto.
+ </summary>
+	<returns>Valor booleano.</returns>
+	<remarks>Autor: Dylhann Obando</remarks>
+</member>
+</members>
+</doc>

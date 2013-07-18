@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32AD93EF-FD28-454F-977C-0180FD23A187}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>capaPresentacion</RootNamespace>
+    <AssemblyName>capaPresentacion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>capaPresentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>capaPresentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="solLogica, Version=1.0.0.9, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\solLogica\solLogica\solLogica\bin\Debug\solLogica.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAsignarDirectorAcademicoCarrera.Designer.vb">
+      <DependentUpon>frmAsignarDirectorAcademicoCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarDirectorAcademicoCarrera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarRolAUsuario.Designer.vb">
+      <DependentUpon>frmAsignarRolAUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarRolAUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAyuda.Designer.vb">
+      <DependentUpon>frmAyuda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAyuda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmbuscarEstudiantesTema.Designer.vb">
+      <DependentUpon>frmbuscarEstudiantesTema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmbuscarEstudiantesTema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarForos.Designer.vb">
+      <DependentUpon>frmListarForos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarForos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPadre.Designer.vb">
+      <DependentUpon>frmPadre.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPadre.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAgregarTema.Designer.vb">
+      <DependentUpon>frmAgregarTema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAgregarTema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarCursoCarrera.Designer.vb">
+      <DependentUpon>frmAsignarCursoCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarCursoCarrera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarEstudianteGrupo.Designer.vb">
+      <DependentUpon>frmAsignarEstudianteGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarEstudianteGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarEstudianteTema.Designer.vb">
+      <DependentUpon>frmAsignarEstudianteTema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarEstudianteTema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarPermisosRol.Designer.vb">
+      <DependentUpon>frmAsignarPermisosRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarPermisosRol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAsignarProfesor.Designer.vb">
+      <DependentUpon>frmAsignarProfesor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAsignarProfesor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarBitacoraPorRol.Designer.vb">
+      <DependentUpon>frmBuscarBitacoraPorRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarBitacoraPorRol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarCarrera.Designer.vb">
+      <DependentUpon>frmBuscarCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarCarrera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarCurso.Designer.vb">
+      <DependentUpon>frmBuscarCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarCursoCarrera.Designer.vb">
+      <DependentUpon>frmBuscarCursoCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarCursoCarrera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarDirectorAcademicoCarrera.Designer.vb">
+      <DependentUpon>frmBuscarDirectorAcademicoCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarDirectorAcademicoCarrera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarEstudiantesGrupo.Designer.vb">
+      <DependentUpon>frmBuscarEstudiantesGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarEstudiantesGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarGrupo.Designer.vb">
+      <DependentUpon>frmBuscarGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarGruposCurso.Designer.vb">
+      <DependentUpon>frmBuscarGruposCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarGruposCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarProfesorAsociadoGrupo.Designer.vb">
+      <DependentUpon>frmBuscarProfesorAsociadoGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarProfesorAsociadoGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarTema.Designer.vb">
+      <DependentUpon>frmBuscarTema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarTema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBuscarUsuarios.Designer.vb">
+      <DependentUpon>frmBuscarUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBuscarUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicioSesion.Designer.vb">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInicioSesion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarAportesTema.Designer.vb">
+      <DependentUpon>frmListarAportesTema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarAportesTema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarPermisos.Designer.vb">
+      <DependentUpon>frmListarPermisos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarPermisos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListarRol.Designer.vb">
+      <DependentUpon>frmListarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListarRol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMdiContainer.Designer.vb">
+      <DependentUpon>frmMdiContainer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMdiContainer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModicarGrupo.Designer.vb">
+      <DependentUpon>frmModicarGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModicarGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarCarrera.Designer.vb">
+      <DependentUpon>frmModificarCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarCarrera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarCurso.Designer.vb">
+      <DependentUpon>frmModificarCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarRol.Designer.vb">
+      <DependentUpon>frmModificarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarRol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarTema.Designer.vb">
+      <DependentUpon>frmModificarTema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarTema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmModificarUsuario.Designer.vb">
+      <DependentUpon>frmModificarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmModificarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMostrarBitacora.Designer.vb">
+      <DependentUpon>frmMostrarBitacora.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMostrarBitacora.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipalV2.Designer.vb">
+      <DependentUpon>frmPrincipalV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipalV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarCarrera.Designer.vb">
+      <DependentUpon>frmRegistrarCarrera.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarCarrera.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarCurso.Designer.vb">
+      <DependentUpon>frmRegistrarCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarCursosBatch.Designer.vb">
+      <DependentUpon>frmRegistrarCursosBatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarCursosBatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarGrupo.Designer.vb">
+      <DependentUpon>frmRegistrarGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarRol.Designer.vb">
+      <DependentUpon>frmRegistrarRol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarRol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarUsuario.Designer.vb">
+      <DependentUpon>frmRegistrarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegistrarUsuarioTxt.Designer.vb">
+      <DependentUpon>frmRegistrarUsuarioTxt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegistrarUsuarioTxt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb" />
+    <Compile Include="Modulos\ModuloUtilitarios.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAsignarDirectorAcademicoCarrera.resx">
+      <DependentUpon>frmAsignarDirectorAcademicoCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarRolAUsuario.resx">
+      <DependentUpon>frmAsignarRolAUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAyuda.resx">
+      <DependentUpon>frmAyuda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmbuscarEstudiantesTema.resx">
+      <DependentUpon>frmbuscarEstudiantesTema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarForos.resx">
+      <DependentUpon>frmListarForos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPadre.resx">
+      <DependentUpon>frmPadre.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAgregarTema.resx">
+      <DependentUpon>frmAgregarTema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarCursoCarrera.resx">
+      <DependentUpon>frmAsignarCursoCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarEstudianteGrupo.resx">
+      <DependentUpon>frmAsignarEstudianteGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarEstudianteTema.resx">
+      <DependentUpon>frmAsignarEstudianteTema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarPermisosRol.resx">
+      <DependentUpon>frmAsignarPermisosRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAsignarProfesor.resx">
+      <DependentUpon>frmAsignarProfesor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarBitacoraPorRol.resx">
+      <DependentUpon>frmBuscarBitacoraPorRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarCarrera.resx">
+      <DependentUpon>frmBuscarCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarCurso.resx">
+      <DependentUpon>frmBuscarCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarCursoCarrera.resx">
+      <DependentUpon>frmBuscarCursoCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarDirectorAcademicoCarrera.resx">
+      <DependentUpon>frmBuscarDirectorAcademicoCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarEstudiantesGrupo.resx">
+      <DependentUpon>frmBuscarEstudiantesGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarGrupo.resx">
+      <DependentUpon>frmBuscarGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarGruposCurso.resx">
+      <DependentUpon>frmBuscarGruposCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarProfesorAsociadoGrupo.resx">
+      <DependentUpon>frmBuscarProfesorAsociadoGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarTema.resx">
+      <DependentUpon>frmBuscarTema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBuscarUsuarios.resx">
+      <DependentUpon>frmBuscarUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInicioSesion.resx">
+      <DependentUpon>frmInicioSesion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarAportesTema.resx">
+      <DependentUpon>frmListarAportesTema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarPermisos.resx">
+      <DependentUpon>frmListarPermisos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListarRol.resx">
+      <DependentUpon>frmListarRol.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMdiContainer.resx">
+      <DependentUpon>frmMdiContainer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModicarGrupo.resx">
+      <DependentUpon>frmModicarGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarCarrera.resx">
+      <DependentUpon>frmModificarCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarCurso.resx">
+      <DependentUpon>frmModificarCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarRol.resx">
+      <DependentUpon>frmModificarRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarTema.resx">
+      <DependentUpon>frmModificarTema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmModificarUsuario.resx">
+      <DependentUpon>frmModificarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMostrarBitacora.resx">
+      <DependentUpon>frmMostrarBitacora.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipalV2.resx">
+      <DependentUpon>frmPrincipalV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarCarrera.resx">
+      <DependentUpon>frmRegistrarCarrera.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarCurso.resx">
+      <DependentUpon>frmRegistrarCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarCursosBatch.resx">
+      <DependentUpon>frmRegistrarCursosBatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarGrupo.resx">
+      <DependentUpon>frmRegistrarGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarRol.resx">
+      <DependentUpon>frmRegistrarRol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarUsuario.resx">
+      <DependentUpon>frmRegistrarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegistrarUsuarioTxt.resx">
+      <DependentUpon>frmRegistrarUsuarioTxt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\solLogica.Estructura.StrCurso.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_update.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\assign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono.ico" />
+    <None Include="Resources\CCS_BackgroundGeneric.gif" />
+    <None Include="Resources\volver.jpg" />
+    <None Include="Resources\icono_volver.gif" />
+    <Content Include="SCS.vbproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,351 @@
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.xml
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.dll
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.dll
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.pdb
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPadre.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAgregarTema.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarCursoCarrera.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteGrupo.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteTema.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarPermisosRol.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarProfesor.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCarrera.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCurso.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCursoCarrera.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarDirectorAcademicoCarrera.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarEstudiantesGrupo.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGrupo.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGruposCurso.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarProfesorAsociadoGrupo.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarTema.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarUsuarios.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmInicioSesion.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarAportesTema.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarPermisos.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMdiContainer.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModicarGrupo.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCarrera.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCurso.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarRol.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarTema.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarUsuario.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMostrarBitacora.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipal.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCarrera.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCurso.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarGrupo.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarRol.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuario.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.Resources.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.exe
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.xml
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.pdb
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.pdb
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuarioTxt.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmbuscarEstudiantesTema.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.exe
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.xml
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmbuscarEstudiantesTema.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPadre.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAgregarTema.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarCursoCarrera.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteGrupo.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteTema.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarPermisosRol.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarProfesor.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCarrera.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCurso.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCursoCarrera.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarDirectorAcademicoCarrera.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarEstudiantesGrupo.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGrupo.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGruposCurso.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarProfesorAsociadoGrupo.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarTema.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarUsuarios.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmInicioSesion.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarAportesTema.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarPermisos.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarRol.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMdiContainer.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModicarGrupo.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCarrera.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCurso.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarRol.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarTema.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarUsuario.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMostrarBitacora.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipal.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCarrera.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCurso.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarGrupo.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarRol.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuario.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuarioTxt.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.Resources.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.xml
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.pdb
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.exe
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.xml
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.pdb
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.xml
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.dll
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.dll
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.pdb
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.pdb
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmbuscarEstudiantesTema.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPadre.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAgregarTema.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarCursoCarrera.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteGrupo.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteTema.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarPermisosRol.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarProfesor.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCarrera.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCurso.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCursoCarrera.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarDirectorAcademicoCarrera.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarEstudiantesGrupo.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGrupo.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGruposCurso.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarProfesorAsociadoGrupo.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarTema.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarUsuarios.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmInicioSesion.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarAportesTema.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarPermisos.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarRol.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMdiContainer.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModicarGrupo.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCarrera.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCurso.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarRol.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarTema.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarUsuario.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMostrarBitacora.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipal.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCarrera.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCurso.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCursosBatch.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarGrupo.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarRol.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuario.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuarioTxt.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.Resources.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCursosBatch.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarDirectorAcademicoCarrera.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarRolAUsuario.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarDirectorAcademicoCarrera.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarRolAUsuario.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarRol.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCursosBatch.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarDirectorAcademicoCarrera.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarRolAUsuario.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAyuda.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAyuda.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAyuda.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.vbproj.GenerateResource.Cache
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarForos.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.pdb
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.xml
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.dll
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.dll
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.pdb
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.pdb
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarDirectorAcademicoCarrera.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarRolAUsuario.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAyuda.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmbuscarEstudiantesTema.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarForos.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPadre.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAgregarTema.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarCursoCarrera.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteGrupo.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteTema.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarPermisosRol.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarProfesor.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarBitacoraPorRol.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCarrera.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCurso.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCursoCarrera.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarDirectorAcademicoCarrera.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarEstudiantesGrupo.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGrupo.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGruposCurso.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarProfesorAsociadoGrupo.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarTema.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarUsuarios.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmInicioSesion.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarAportesTema.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarPermisos.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarRol.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMdiContainer.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModicarGrupo.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCarrera.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCurso.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarRol.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarTema.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarUsuario.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMostrarBitacora.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipal.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCarrera.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCurso.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCursosBatch.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarGrupo.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarRol.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuario.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuarioTxt.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.Resources.resources
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.exe
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.xml
+E:\proy2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.pdb
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarForos.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarBitacoraPorRol.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarBitacoraPorRol.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.exe
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.xml
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.pdb
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.xml
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.dll
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.dll
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.pdb
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.pdb
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarDirectorAcademicoCarrera.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarRolAUsuario.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAyuda.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmbuscarEstudiantesTema.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarForos.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPadre.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAgregarTema.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarCursoCarrera.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteGrupo.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteTema.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarPermisosRol.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarProfesor.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarBitacoraPorRol.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCarrera.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCurso.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCursoCarrera.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarDirectorAcademicoCarrera.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarEstudiantesGrupo.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGrupo.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGruposCurso.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarProfesorAsociadoGrupo.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarTema.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarUsuarios.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmInicioSesion.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarAportesTema.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarPermisos.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarRol.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMdiContainer.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModicarGrupo.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCarrera.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCurso.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarRol.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarTema.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarUsuario.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMostrarBitacora.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipal.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCarrera.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCurso.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCursosBatch.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarGrupo.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarRol.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuario.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuarioTxt.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.Resources.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarForos.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarBitacoraPorRol.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipalV2.resources
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipalV2.resources
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipalV2.resources
+C:\Users\Andres\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\ChrisVC\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipalV2.resources
+C:\Users\Xhanatros\Desktop\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.pdb
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.xml
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.dll
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.dll
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\solLogica.pdb
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\AccesoBD.pdb
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarDirectorAcademicoCarrera.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarRolAUsuario.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAyuda.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmbuscarEstudiantesTema.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarForos.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPadre.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAgregarTema.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarCursoCarrera.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteGrupo.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarEstudianteTema.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarPermisosRol.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmAsignarProfesor.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarBitacoraPorRol.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCarrera.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCurso.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarCursoCarrera.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarDirectorAcademicoCarrera.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarEstudiantesGrupo.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGrupo.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarGruposCurso.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarProfesorAsociadoGrupo.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarTema.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmBuscarUsuarios.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmInicioSesion.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarAportesTema.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarPermisos.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmListarRol.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMdiContainer.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModicarGrupo.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCarrera.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarCurso.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarRol.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarTema.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmModificarUsuario.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmMostrarBitacora.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipal.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmPrincipalV2.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCarrera.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCurso.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarCursosBatch.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarGrupo.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarRol.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuario.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.frmRegistrarUsuarioTxt.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.Resources.resources
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.exe
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.xml
+C:\Users\Jonathan\SCS\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\bin\Debug\capaPresentacion.exe.config
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solPresentacion\solPresentacion\capaPresentacion\obj\x86\Debug\capaPresentacion.vbprojResolveAssemblyReference.cache

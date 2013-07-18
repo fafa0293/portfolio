@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fb45401c-85e9-42ae-a3d7-d53f4c3d0c2e" name="Fabian@FABIAN-PC 2012-12-07 01:16:33" runUser="Fabian-PC\Fabian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="15dea39e-161d-42fc-8678-50fcec072f74">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Fabian_FABIAN-PC 2012-12-07 01_16_33">
+      <DeploymentItem filename="C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\bin\Debug\solLogica.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-12-07T01:16:33.7311050-06:00" queuing="2012-12-07T01:16:33.7844591-06:00" start="2012-12-07T01:16:33.7924640-06:00" finish="2012-12-07T01:16:34.2297554-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="buscarEntrada" storage="c:\users\fabian\dropbox\personal\proyecto 2\star-community-system\sollogica\sollogica\pruebaslogica\bin\debug\pruebaslogica.dll" id="b9999ee1-3af5-6820-0e0a-2f49acb6b1af">
+      <Execution id="e5353e02-62c6-4274-9840-ea9f3acc8a29" />
+      <TestMethod codeBase="C:/Users/Fabian/Dropbox/Personal/Proyecto 2/star-community-system/solLogica/solLogica/PruebasLogica/bin/Debug/PruebasLogica.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="PruebasLogica.PruebasFabian, PruebasLogica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="buscarEntrada" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b9999ee1-3af5-6820-0e0a-2f49acb6b1af" executionId="e5353e02-62c6-4274-9840-ea9f3acc8a29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e5353e02-62c6-4274-9840-ea9f3acc8a29" testId="b9999ee1-3af5-6820-0e0a-2f49acb6b1af" testName="buscarEntrada" computerName="FABIAN-PC" duration="00:00:00.0800354" startTime="2012-12-07T01:16:33.7964712-06:00" endTime="2012-12-07T01:16:34.2007385-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5353e02-62c6-4274-9840-ea9f3acc8a29">
+      <Output>
+        <StdOut>Data Source=Fabian-PC;Initial Catalog=BDStarCommunitySystem;User ID=cenfo;Password=123456</StdOut>
+        <ErrorInfo>
+          <Message>El método de prueba PruebasLogica.PruebasFabian.buscarEntrada produjo la excepción: 
+System.Data.SqlClient.SqlException: Procedure or function 'sp_EntradaId' expects parameter '@idEntrda', which was not supplied.</Message>
+          <StackTrace>    en solLogica.Persistente.PersEntrada.buscarEntradasPorId(Int32 pid) en C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\Persistente\PersEntrada.cs:línea 160
+   en solLogica.Gestor.GestorEntrada.entradaId(Int32 idEntrada) en C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\solLogica\Gestor\GestorEntrada.cs:línea 87
+   en PruebasLogica.PruebasFabian.buscarEntrada() en C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\PruebasFabian.cs:línea 225
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

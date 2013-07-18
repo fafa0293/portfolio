@@ -1,0 +1,10 @@
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\bin\Debug\PruebasLogica.dll.config
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\bin\Debug\solLogica.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\bin\Debug\AccesoBD.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\bin\Debug\solLogica.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\bin\Debug\AccesoBD.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\obj\Debug\PruebasLogica.csprojResolveAssemblyReference.cache
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\obj\Debug\PruebasLogica.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\obj\Debug\PruebasLogica.pdb
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\bin\Debug\PruebasLogica.dll
+C:\Users\Fabian\Dropbox\Personal\Proyecto 2\star-community-system\solLogica\solLogica\PruebasLogica\bin\Debug\PruebasLogica.pdb
